@@ -167,9 +167,19 @@ local addonFrameInfo = {
         },
     },
     ["PitBull4"] = {
-        {
+		{
             frame = "^PitBull4_Groups_Party",
+            type = "party",
+            unit = "unit",
+        },
+		{
+            frame = "^PitBull4_Groups_Raid",
             type = "raid",
+            unit = "unit",
+        },
+		{
+            frame = "^PitBull4_Frames_Player's pet",
+            type = "pet",
             unit = "unit",
         },
     },
